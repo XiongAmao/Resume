@@ -7,25 +7,22 @@
 - 广州大学（本科）
 - 自我介绍：专注于前端开发，做最好的用户体验师。
 
-## 主要个人作品
-### 3D-hover 面板
-使用原生JS+CSS实现的简单3D-hover面板，面板会跟随鼠标在面板上的移动变化
-
-### 时钟
-使用原生JS+CSS实现的时钟，能够展示当前时间
-
-### 仿多玩网的导航栏
-纯CSS实现的导航栏，鼠标移上去可弹出下拉列表
-
+## 个人项目
 ### netguru首页
-样式使用Sass完成，效果通过jQuery+swiper.js+headroom.js等库完成
+- [在线预览](https://xiongamao.github.io/homepage-netguru/)
+- [Github源码](https://github.com/XiongAmao/homepage-netguru)
+- 仿netguru官网首页，学习响应式布局及CSS动画效果
+- 技术栈：jQuery + swiper.js + headroom.js + Sass
+- 样式使用Sass完成，效果通过jQuery+swiper.js+headroom.js等库完成
 
-### 仿网易云音乐m站
-- vw布局
-- 纯jQuery实现
-- 后端通过json模拟交互、音乐及图片资源存储于阿里云及七牛
+### 仿网易云音乐移动端页面
+- [在线预览](https://xiongamao.github.io/mNeteaseMusic-demo/build/homepage.html)
+- [Github源码](https://github.com/XiongAmao/mNeteaseMusic-demo)
+- 该项目是仿网易云音乐移动端页面(原页面:(http://music.163.com/m/))。支持歌曲播放，歌词滚动，歌曲搜索。数据采用JSON文件模拟歌单列表获取，歌曲信息（音频、专辑图片）存储于第三方OSS。开发工具使用Gulp + browsersync 用于打包及多手机端测试。
+- 部署：Leancloud + 阿里云OSS
+- 技术栈：jQuery + Gulp + broswersync + Sass
 
-### Vue Resumer
+### Vue Todo
 - 基于Vue的简历app
 
 ## 技能
