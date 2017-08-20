@@ -17,8 +17,8 @@
 - 样式使用Sass完成，效果通过jQuery+swiper.js+headroom.js等库完成
 
 ### 仿网易云音乐移动端页面
-![](http://ond8gcwbr.bkt.clouddn.com/17-8-20/63975510.jpg)
-![](http://ond8gcwbr.bkt.clouddn.com/17-8-20/90986735.jpg)
+![](http://ond8gcwbr.bkt.clouddn.com/17-8-20/9526534.jpg)
+![](http://ond8gcwbr.bkt.clouddn.com/17-8-20/50606607.jpg)
 - [在线预览](https://xiongamao.github.io/mNeteaseMusic-demo/build/homepage.html)
 - [Github源码](https://github.com/XiongAmao/mNeteaseMusic-demo)
 - 该项目是仿网易云音乐移动端页面(原页面:(http://music.163.com/m/))。支持歌曲播放，歌词滚动，歌曲搜索。数据采用JSON文件模拟歌单列表获取，歌曲信息（音频、专辑图片）存储于第三方OSS。开发工具使用Gulp + browsersync 用于打包及多手机端测试。
