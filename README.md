@@ -13,7 +13,7 @@
 ![](http://ond8gcwbr.bkt.clouddn.com/17-10-8/69440563.jpg)
 - [在线预览](https://xiongamao.github.io/Vue-todolist-demo/dist/)
 - [Github源码](https://github.com/XiongAmao/Vue-todolist-demo/)
-- 一个单页面Todo任务列表小应用。该项目基于Vue，使用Vuex进行全局状态管理，Vue Router进行路由分发，使用leancloud提供的后端服务。为了锻炼CSS技能，样式部分没有采用Element-ui等UI库。
+- 一个单页面Todo任务列表小应用。该项目基于Vue，使用Vuex进行全局状态管理，Vue Router进行路由分发，使用leancloud提供的后端数据存储服务。
 - 部署：Leancloud 
 - 技术栈：Vuex + Vuex + Vue Router + Vue-cli(webpack) + Sass
 
