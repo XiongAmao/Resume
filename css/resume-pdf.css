@@ -1,0 +1,378 @@
+/* reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+li,
+ul {
+    list-style: none;
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+
+/* print */
+
+@media print {
+    main {
+        margin: 0 auto !important;
+    }
+}
+
+
+/* main */
+
+.wrapper {
+    display: flex;
+    width: 1000px;
+    height: 2826px;
+    /* height: 1413px; */
+    margin: 20px auto 0 auto;
+    box-shadow: 0 5px 20px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    background: #fff;
+}
+
+
+/* aside  */
+
+.through-line-title {
+    /* margin:50px; */
+    text-align: center;
+    background-color: #00bdc4;
+}
+
+.through-line-title .through-line:before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    top: 15px;
+    left: 0;
+}
+
+.through-line-title .through-line span {
+    display: inline-block;
+    background: #00bdc4;
+    color: #fff;
+    padding: 0 18px 0 18px;
+    position: relative;
+    font-weight: 500;
+}
+
+
+/* profile - */
+
+.profile {
+    width: 300px;
+    background: #00bdc4;
+    padding: 40px 20px;
+    color: #fff;
+}
+
+.profile .contact,
+.profile .social-contact,
+.profile .about {
+    font-size: 18px;
+}
+
+.profile .name {
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+
+/* profile - avatar */
+
+.profile .avatar {
+    margin: 40px auto 10px auto;
+    width: 180px;
+    height: 180px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+.profile .avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+/* profile - about */
+
+.profile .about {
+    padding: 20px 0;
+}
+
+
+/* profile - job intention */
+
+.profile .job-intention {
+    text-align: center;
+    font-size: 20px;
+    padding: 6px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #fff;
+    color: #00bdc4;
+}
+
+.job-intention span {
+    font-weight: 700;
+}
+
+
+/* profile - educttion */
+
+.profile .education {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.profile .education .icon {
+    width: 2em;
+}
+
+.profile .education .content {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.profile .education .content span {
+    padding-left: 6px;
+    font-size: 14px;
+}
+
+.profile .education .school {
+    padding-top: 20px;
+}
+
+.profile .social-contact a {
+    font-size: 16px;
+}
+
+
+/* aside ul for layout */
+
+.aside-ul {
+    padding: 20px 0;
+}
+
+.aside-ul li {
+    padding: 10px 0;
+}
+
+.aside-ul li .icon {
+    width: 2em;
+}
+
+.aside-ul a:visited {
+    color: #fff;
+}
+
+
+/* details */
+
+.details {
+    padding: 40px 20px 20px;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+
+/* portfolio */
+
+.detail-title {
+    padding: 8px 0;
+    border-bottom: 1px solid #aaa;
+    font-size: 24px;
+}
+
+.detail-title .icon {
+    fill: #00bdc4;
+}
+
+.detail-title span {
+    padding-left: 20px;
+    font-weight: 700;
+    color: #00bdc4;
+    vertical-align: middle;
+}
+
+.portfolio ul {
+    font-size: 20px;
+}
+
+.portfolio ul li {
+    margin: 20px 0 20px 15px;
+    position: relative;
+    border-bottom: 1px solid #aaa;
+}
+
+.portfolio ul li:last-child {
+    border: none;
+}
+
+.portfolio .portfolio-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.portfolio .portfolio-title h3 {
+    display: inline-block;
+}
+
+.portfolio .portfolio-title span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+    padding: 0 16px;
+}
+
+.portfolio .portfolio-title a {
+    border: 1px solid #00bdc4;
+    border-radius: 4px;
+    padding: 0 6px;
+    color: #00bdc4;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 6px;
+}
+
+.portfolio .portfolio-title a:visited {
+    color: #00bdc4;
+    text-decoration: none;
+}
+
+.portfolio .description {
+    font-size: 16px;
+    max-width: 590px;
+    padding: 10px 0 15px;
+}
+
+.portfolio .description li {
+    padding: 0 0 4px 1em;
+    margin: 0;
+    border: none;
+}
+
+.portfolio .description li::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    height: .5em;
+    width: .5em;
+    background: #fff;
+    border: 1px solid #00bdc4;
+    border-radius: 50%;
+}
+
+.details .portfolio .imgs img {
+    height: 200px;
+    border: 1px solid #00bdc4;
+}
+
+
+/* skill */
+
+.detials .skill {}
+
+.skill .skill-list {
+    margin: 20px 0;
+    padding: 0 10px;
+}
+
+.skill-list .skill-items {
+    padding-bottom: 10px;
+}
+
+.skill-list .skill-items .item-contents {
+    padding: 0 0 0 4em;
+    font-weight: 400;
+}
+
+.item-contents li {
+    position: relative;
+    margin: 10px 0;
+}
+
+.item-contents li::before {
+    position: absolute;
+    top: 5px;
+    left: -1.5em;
+    content: '';
+    height: .7em;
+    width: .7em;
+    border: 1px solid #00bdc4;
+    background: #fff;
+    transform: rotate(45deg)
+}
+
+
+/* experience */
+
+.detials .experience {}
+
+.experience ul li {
+    margin: 20px 0 20px 15px;
+}
+
+.experience ul li h3 {
+    font-weight: 700;
+    display: inline-block;
+}
+
+.experience ul li span {
+    color: #999;
+}
+
+.experience ul li .job {
+    margin:10px 0;
+}
+
+.experience ul li .description {
+    padding: 0 0 0 2em;
+    max-width: 590px;
+    position: relative;
+}
+.experience ul li .description::before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: -1px;
+    width: .5em;
+    height: 2px;
+    background: #00bdc4;
+    transform: rotate(41deg);
+}
+.experience ul li .description::after {
+    content: '';
+    position: absolute;
+    top: 11px;
+    left: 3px;
+    width: 1.2em;
+    height: 2px;
+    background: #00bdc4;
+    transform: rotate(-45deg);
+}
