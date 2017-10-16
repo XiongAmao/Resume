@@ -36,6 +36,7 @@
 - 技术栈：jQuery + swiper.js + headroom.js + Sass
 - 样式使用Sass完成，效果通过jQuery+swiper.js+headroom.js等库完成
 
+## 掌握技能
 
 - 静态页面制作技术
     > 熟练掌握HTML(5)、CSS(3)，能够像素级还原的静态页面
