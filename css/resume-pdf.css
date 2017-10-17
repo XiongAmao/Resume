@@ -293,7 +293,7 @@ html {
 }
 
 .details .portfolio .imgs img {
-    height: 200px;
+    width:550px;
     border: 1px solid #00bdc4;
 }
 
