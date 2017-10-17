@@ -119,7 +119,11 @@ html {
 /* profile - about */
 
 .profile .about {
-    padding: 20px 0;
+    padding: 10px 0;
+}
+
+.profile .about p {
+    padding: 15px 0 0 0;
 }
 
 
@@ -348,7 +352,7 @@ html {
 }
 
 .experience ul li .job {
-    margin:10px 0;
+    margin: 10px 0;
 }
 
 .experience ul li .description {
@@ -356,6 +360,7 @@ html {
     max-width: 590px;
     position: relative;
 }
+
 .experience ul li .description::before {
     content: '';
     position: absolute;
@@ -366,6 +371,7 @@ html {
     background: #00bdc4;
     transform: rotate(41deg);
 }
+
 .experience ul li .description::after {
     content: '';
     position: absolute;
