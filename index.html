@@ -13,12 +13,236 @@
 
 <body>
     <div class="page-wrapper">
-        <aside></aside>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <!-- aside Begin -->
+        <aside>
+            <header>
+                <div class="name">XiongZiChao</div>
+                <div class="menu-btn">
+                    <div class="menu-box">
+                        <div class="inner"></div>
+                    </div>
+                </div>
+            </header>
+
+            <nav class="">
+                <ul class="js-nav">
+                    <li class="nav-item selected">
+                        个人
+                        <span>ABOUT ME</span>
+                    </li>
+                    <li class="nav-item">
+                        项目
+                        <span>PORTFOLIO</span>
+                    </li>
+                    <li class="nav-item">
+                        技能
+                        <span>SKILLS</span>
+                    </li>
+                    <li class="nav-item">
+                        联系
+                        <span>CONTACT</span>
+                    </li>
+                </ul>
+                <footer>
+                    <div class="logos">
+
+                    </div>
+                </footer>
+            </nav>
+
+        </aside>
+        <!-- aside End -->
+        <!-- about Begin -->
+        <section id="about" class="section ">
+            <header>
+                <div class="avatar"></div>
+            </header>
+            <article>about</article>
+        </section>
+        <!-- about End -->
+        <!-- portfolio Begin -->
+        <section id="portfolio" class="section visible">
+            <h2>portfolio</h2>
+            <ul class="portfolios-box">
+                <li class="portfolio-card">
+                    <div class="title">基于Vue.js的单页面Todo</div>
+                    <div class="img">
+                        <img src="http://ond8gcwbr.bkt.clouddn.com/17-10-17/37727736.jpg" alt="">
+                    </div>
+                    <div class="description">
+                        <p>一个单页面Todo任务列表小应用。项目基于Vue2.0。</p>
+                        <p>
+                            项目使用Vue-cli进行开发，Vuex进行单项数据流状态管理，Vue Router进行路由分发，数据使用leancloud提供的数据存储服务进行管理。
+                        </p>
+                        <p>
+                            通过该项目完整的学习了Vuex、Vue Router两个核心组件库的基本使用方法。熟悉了如何异步处理数据及全局数据的处理链条。同时学习了单文件组件的开发方式。
+                        </p>
+                        <p>技术栈：Vue + Vuex + Vue Router + Vue-cli(webpack) + Sass</p>
+                    </div>
+                    <div class="links">
+                        <div class="logos">
+                            <span>
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-JS"></use>
+                                </svg>
+                            </span>
+                            <a href="https://github.com/vuejs">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-vuejs"></use>
+                                </svg>
+                            </a>
+                            <a href="https://webpack.github.io/">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-webpack"></use>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/sass">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-fe-sass"></use>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="demo-links">
+                            <a href="https://xiongamao.github.io/Vue-todolist-demo/dist/">Github</a>
+                            <a href="https://github.com/XiongAmao/Vue-todolist-demo/">Try it!</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="portfolio-card">
+                    <div class="title">网易云音乐（手机端仿站）</div>
+                    <div class="img">
+                        <img src="http://ond8gcwbr.bkt.clouddn.com/17-10-17/31096009.jpg" alt="">
+                    </div>
+                    <div class="description">
+                        <p>
+                            该项目是网易云音乐移动端页面仿站。 支持歌曲播放，歌词滚动，歌曲搜索。
+                        </p>
+                        <p>
+                            音乐数据使用AJAX，通过JSON文件的请求模拟歌单列表及其他信息的获取。歌曲文件（音频、专辑图片）存储于第三方OSS。开发工具使用Gulp + browsersync 进行打包及手机端测试。
+                        </p>
+                        <p>技术栈：jQuery + Gulp + broswersync + Sass</p>
+                    </div>
+                    <div class="links">
+                        <div class="logos">
+                            <span>
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-JS"></use>
+                                </svg>
+                            </span>
+                            <a href="https://jquery.com/">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-jquery"></use>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/gulpjs">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-gulp"></use>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/sass">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-fe-sass"></use>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="demo-links">
+                            <a href="https://github.com/XiongAmao/mNeteaseMusic-demo">Github</a>
+                            <a href="https://xiongamao.github.io/mNeteaseMusic-demo/build/homepage.html">Try it!</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="portfolio-card">
+                    <div class="title">响应式布局官网首页</div>
+                    <div class="img">
+                        <img src="http://ond8gcwbr.bkt.clouddn.com/17-10-17/51409777.jpg" alt="">
+                    </div>
+                    <div class="description">
+                        <p>仿netguru官网首页，学习响应式布局及CSS动画效果。</p>
+                        <p>技术栈：jQuery + swiper.js + Sass</p>
+                    </div>
+                    <div class="links">
+                        <div class="logos">
+                            <span>
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-JS"></use>
+                                </svg>
+                            </span>
+                            <a href="https://jquery.com/">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-jquery"></use>
+                                </svg>
+                            </a>
+                            <a class="img-logo" href="http://idangero.us/swiper/">
+
+                            </a>
+                            <a href="https://github.com/sass">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-fe-sass"></use>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="demo-links">
+                            <a href="https://github.com/XiongAmao/homepage-netguru/">Github</a>
+                            <a href="https://xiongamao.github.io/homepage-netguru/">Try it!</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- portfolio End -->
+        <!-- Skill Begin -->
+        <section id="skill" class="section">
+            <h2>skill</h2>
+        </section>
+        <!-- skill End -->
+        <!-- contact Begin -->
+        <section id="contact" class="section">
+            <div class="contact-wrapper">
+                <ul class="contact-content">
+                    <li class="item">
+                        <div class="contact-icon">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-email"></use>
+                            </svg>
+                        </div>
+                        <span>onycat@live.cn</span>
+                    </li>
+                    <li class="item">
+                        <div class="contact-icon">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-shouji"></use>
+                            </svg>
+                        </div>
+                        <span>15920165717</span>
+                    </li>
+                    <li class="item">
+                        <div class="contact-icon">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-qq"></use>
+                            </svg>
+                        </div>
+                        <span>385374545@qq.com</span>
+                    </li>
+                    <li class="item">
+                        <div class="contact-icon">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-wexin"></use>
+                            </svg>
+                        </div>
+                        <img src="http://ond8gcwbr.bkt.clouddn.com/17-10-17/37534694.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+
+
+        </section>
+        <!-- contact End -->
     </div>
+    <script src="//at.alicdn.com/t/font_444410_ybv9k97cwct5u3di.js"></script>
     <script src="./js/resume.js"></script>
 </body>
 
