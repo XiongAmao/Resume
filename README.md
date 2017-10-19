@@ -3,38 +3,42 @@
 
 ## 个人信息
 - 熊子超 | 男 | 1991.10 | 广州
-- WeChat: onycat | onycat1022@live.cn | 15920165717
+- WeChat: onycat | onycat@live.cn | 15920165717
 - 广州大学（本科）
-- 关于我：思维灵活发散，强大的自我驱动能力。对新技术充满热情，并努力夯实基础。
+- 关于我：思维灵活发散，拥有强大的自我驱动能力。对新技术充满热情，坚持努力夯实基础。
 
 ## 个人项目
 ### Vue Todo
-![](http://ond8gcwbr.bkt.clouddn.com/17-10-8/52662567.jpg)
-![](http://ond8gcwbr.bkt.clouddn.com/17-10-8/69440563.jpg)
+
+![](http://ond8gcwbr.bkt.clouddn.com/17-10-17/37727736.jpg)
+
 - [在线预览](https://xiongamao.github.io/Vue-todolist-demo/dist/)
 - [Github源码](https://github.com/XiongAmao/Vue-todolist-demo/)
-- 一个单页面Todo任务列表小应用。该项目基于Vue，使用Vuex进行全局状态管理，Vue Router进行路由分发，使用leancloud提供的后端数据存储服务。
+- 一个单页面Todo任务列表小应用。基于Vue，使用Vuex进行全局状态管理，Vue Router进行路由分发，使用leancloud提供的后端数据存储服务。
 - 部署：Leancloud 
 - 技术栈：Vue + Vuex + Vue Router + Vue-cli(webpack) + Sass
 
 
-
 ### 仿网易云音乐移动端页面
-![](http://ond8gcwbr.bkt.clouddn.com/17-8-20/9526534.jpg)
-![](http://ond8gcwbr.bkt.clouddn.com/17-8-20/50606607.jpg)
+
+![](http://ond8gcwbr.bkt.clouddn.com/17-10-17/31096009.jpg)
+
 - [在线预览](https://xiongamao.github.io/mNeteaseMusic-demo/build/homepage.html)
 - [Github源码](https://github.com/XiongAmao/mNeteaseMusic-demo)
 - 该项目是仿[网易云音乐移动端页面[](http://music.163.com/m/)。 支持歌曲播放，歌词滚动，歌曲搜索。数据采用JSON文件模拟歌单列表获取，歌曲信息（音频、专辑图片）存储于第三方OSS。开发工具使用Gulp + browsersync 进行打包及手机端测试。
 - 部署：Leancloud + 阿里云OSS
 - 技术栈：jQuery + Gulp + broswersync + Sass
 
+
 ### netguru首页
+
 ![](http://ond8gcwbr.bkt.clouddn.com/17-8-20/48016856.jpg)
+
 - [在线预览](https://xiongamao.github.io/homepage-netguru/)
 - [Github源码](https://github.com/XiongAmao/homepage-netguru)
 - 仿netguru官网首页，学习响应式布局及CSS动画效果
-- 技术栈：jQuery + swiper.js + headroom.js + Sass
 - 样式使用Sass完成，效果通过jQuery+swiper.js+headroom.js等库完成
+- 技术栈：jQuery + swiper.js + Sass
 
 ## 掌握技能
 
@@ -78,8 +82,10 @@
 
 ## 联系方式
 - 手机：15920165717
-- 邮箱：onycat1022@live.cn
+- 邮箱：onycat@live.cn
 - QQ:385374545
-- WeChat:15920165717
+- WeChat:onycat
 - blog: http://www.jianshu.com/u/b81f805e4ea8
 - Github: https://github.com/XiongAmao
+
+
