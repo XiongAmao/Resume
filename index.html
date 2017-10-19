@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/resume.css">
     <link type="image/x-icon" rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC7UlEQVRYR+1WTWsTURQ9dyakSCtpUBBTaQw1CZgqWl0UUlcVunKVXX9AmqX52Lp0U5LsxEz+RHeCSHUlulIXpdCP6CKluMuuC+3MlfsmM80kk4+m1brogwQyeffec88779whXPCiC66PSwD/NQMs6OyvsY+KOzTm2+wABjQGLKjS/xIAAZxMJJEvFlzwa2trpwGiuk4mkygUunLYGT1N9zJANgAnmJmxv7+vIt98fI/tT1+GslYqlTAxMYHZ2VlvE+MAcDIQEbLZbE8HXh/RmIhRq9V67EWxeBYAwoSAWF9fR+N7w1OAoKvf9XoNpmmqfd3rzACchNVqFTs7O74GKp37FZfN5wZgXOseBKDzrqr8wWAQsVhs3Fq+cQ5r4XAYrVbLPSNKLT7k7c9fVZCYDrFc+7ZaiCBn/xfWCQA3OYGlcr1ed4t20NYXg2EYNnhm5HK5UbH2B+AklEyVSkWJyk90c3NzCAQCyOfzODw8xNHRETY2NqBpGvb29nqAiDHJaufyAdBm3gZggVgDIB8L2Zx7h93E3UB3d3chz/yYIGgwjFcA6T1e0nlh1WFLkuBkGDdvL6jiFgHNrQ+jUuv1B9YQS6VhUhCgYxBMrKRTsmcwAzaAx7DIAkPDwdbbNhu9OMR4dN02IlmWZaljUH5gEaLzT2BSQP2n8y+sLN3tA0BEKG722oB29RpuRR+o7uXhwdY7UJs+mRHOecp+EWqxWEQikfCIUfYUC88RnV+CiSvDAdxbXGCTLTxbeorJ6zdw/1FaBYnN/vzxTXUksyCTyXg8olwuY3V1FZFIxAUg4nWmYSSWwrGlo9FoAPwbL18UvD7QTaoO8B01SktKA87qGEYj6aHfOF5eXsbm5qavBrwCIrBhnHiC/HkaU3JmQj8Ldhsb0A53XrWR2vbZdCYA4xbtihv44jvsrZjlSsXjcTdns9lUrjc9Pa2E2Wq1MDMzg6mpKVeEYkoSFwqFPILza2gYgHMioX+aSwCXDPwBfLccMBSgrKgAAAAASUVORK5CYII="
         id="page_favicon">
+    <link href="//fonts.css.network/css?family=Play" rel="stylesheet">
     <title>XiongZiChao's Resume</title>
 </head>
 
@@ -16,16 +17,17 @@
         <!-- aside Begin -->
         <aside>
             <header>
-                <div class="name">XiongZiChao</div>
-                <div class="menu-btn">
-                    <div class="menu-box">
-                        <div class="inner"></div>
-                    </div>
+                <div class="name">
+                    XiongZiChao's
+                    <p>Resume</p>
                 </div>
+                <svg class="icon menu-btn" aria-hidden="true">
+                    <use xlink:href="#icon-menu"></use>
+                </svg>
             </header>
 
-            <nav class="">
-                <ul class="js-nav">
+            <nav class="js-nav">
+                <ul class="js-navlist">
                     <li class="nav-item selected">
                         个人
                         <span>ABOUT ME</span>
@@ -44,8 +46,25 @@
                     </li>
                 </ul>
                 <footer>
-                    <div class="logos">
-
+                    <div class="links">
+                        <a title="Mail to me" class="email" href="mailto:onycat@live.cn">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-email"></use>
+                            </svg>
+                        </a>
+                        <a title="My Github" class="github" href="https://github.com/XiongAmao">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-github"></use>
+                            </svg>
+                        </a>
+                        <a title="My Blog" class="jianshu" href="http://www.jianshu.com/u/b81f805e4ea8">
+                            <svg class="icon email" aria-hidden="true">
+                                <use xlink:href="#icon-jian"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="copyright">
+                        Made by XiongAmao Oct.2017
                     </div>
                 </footer>
             </nav>
@@ -53,16 +72,115 @@
         </aside>
         <!-- aside End -->
         <!-- about Begin -->
-        <section id="about" class="section ">
-            <header>
-                <div class="avatar"></div>
-            </header>
-            <article>about</article>
+        <section id="about" class="section visible">
+            <div class="about-wrapper">
+                <!-- About me Title Begin -->
+                <header>
+                    <div class="avatar">
+                        <img src="http://ond8gcwbr.bkt.clouddn.com/17-10-15/93966723.jpg" alt="">
+                    </div>
+                    <div class="profile">
+                        <h2>熊子超</h2>
+                        <h3>求职意向
+                            <span>Career Objective</span>
+                        </h3>
+                        <h3>前端开发
+                            <span>Front-End Developer</span>
+                        </h3>
+                    </div>
+                </header>
+                <!-- About me Title End -->
+                <!-- Why choose me Begin -->
+                <div class="whyme">
+                    <h2 class="title">为什么选择我？
+                        <span>Why me?</span>
+                    </h2>
+                    <ul>
+                        <li>
+                            <div class="good-icon">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-good"></use>
+                                </svg>
+                            </div>
+                            对复杂、有逻辑的事物抱有
+                            <strong>好奇心</strong>，
+                            <strong>有耐心</strong>，可以持续十几小时投入研究。
+                        </li>
+                        <li>
+                            <div class="good-icon">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-good"></use>
+                                </svg>
+                            </div>
+                            <strong>自学能力强</strong>，工作之余自学编程、英语。</li>
+                        <li>
+                            <div class="good-icon">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-good"></use>
+                                </svg>
+                            </div>
+                            经常研究各种工作中涉及到软件及管理方式，以提升自己和团队工作效率，相信技术是第一生产力。
+                        </li>
+                        <li>
+                            <div class="good-icon">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-good"></use>
+                                </svg>
+                            </div>
+                            带过小团队，注重手上工作对团队的匹配和
+                            <strong>协作</strong>，喜欢简单、效率的沟通方式。
+                        </li>
+                        <li>
+                            <div class="good-icon">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-good"></use>
+                                </svg>
+                            </div>
+                            未来一年将学习Node方向的
+                            <strong>后端开发</strong>以及强化自己的
+                            <strong>算法基础</strong>。
+                        </li>
+                    </ul>
+                </div>
+                <!-- Why choose me End -->
+                <!-- Experience Begin -->
+                <div class="experience">
+                    <h2 class="title">经验
+                        <span>Experience</span>
+                    </h2>
+                    <h3>前工作经历 2015 - 2017</h3>
+                    <p>
+                        在一家手机游戏公司担任游戏平台
+                        <strong>用户运营</strong>。
+                    </p>
+                    <p>主要工作内容是维护平台游戏用户、调研用户数据及反馈、
+                        <strong>策划</strong>VIP及游戏联运活动。</p>
+                    <p>负责协调手游联运项目内外部的
+                        <strong>沟通工作</strong>，协调各司之间技术运营的工作交接，
+                        <strong>管理</strong>游戏平台客服团队日常工作。</p>
+                    <h3>为什么转前端</h3>
+                    <p>
+                        在过去几年的工作中，对互联网产品的研发过程及产品底层的构建充满了
+                        <strong>兴趣</strong>，逐渐认识到自己希望成为一名软件工程师，参与到实际开发当中。于是决定从前端开始，努力成为一名
+                        <strong>不限于前端</strong>的专业程序员。
+                    </p>
+                </div>
+                <!-- Experience End -->
+                <!-- Education Begin -->
+                <div class="education">
+                    <h2 class="title">学历
+                        <span>Education</span>
+                    </h2>
+                    <p>广州大学 | 理学学士 | 1991年生</p>
+                </div>
+                <!-- Education End -->
+            </div>
+
         </section>
         <!-- about End -->
         <!-- portfolio Begin -->
-        <section id="portfolio" class="section visible">
-            <h2>portfolio</h2>
+        <section id="portfolio" class="section">
+            <h2>Portfolio</h2>
             <ul class="portfolios-box">
                 <li class="portfolio-card">
                     <div class="title">基于Vue.js的单页面Todo</div>
@@ -104,8 +222,8 @@
                         </div>
 
                         <div class="demo-links">
-                            <a href="https://xiongamao.github.io/Vue-todolist-demo/dist/">Github</a>
-                            <a href="https://github.com/XiongAmao/Vue-todolist-demo/">Try it!</a>
+                            <a href="https://github.com/XiongAmao/Vue-todolist-demo/">Github</a>
+                            <a href="https://xiongamao.github.io/Vue-todolist-demo/dist/">Try it!</a>
                         </div>
                     </div>
                 </li>
@@ -196,7 +314,69 @@
         <!-- portfolio End -->
         <!-- Skill Begin -->
         <section id="skill" class="section">
-            <h2>skill</h2>
+            <h2>Skill</h2>
+            <div class="skill-list-wrapper">
+                <ul class="skill-list">
+                    <li>
+                        <h3 class="title">静态页面制作技术</h3>
+                        <p>熟练掌握HTML(5)、CSS(3)，能够像素级还原的静态页面。</p>
+                        <p>熟悉响应式布局、Flex布局、CSS3动画。</p>
+                    </li>
+                    <li>
+                        <h3 class="title">移动端页面开发</h3>
+                        <p>熟悉手机端页面的开发流程。</p>
+                        <p>能够使用常用移动端页面布局（REM布局、响应式布局）进行开发。</p>
+                    </li>
+                    <li>
+                        <h3 class="title">熟练掌握原生JavaScript</h3>
+                        <p>熟练掌握原生Javascript，熟悉重要概念：原型，闭包，作用域链，面向对象等。</p>
+                        <p>了解并能够使用 ES6及ES7 部分新特性。</p>
+                    </li>
+
+                </ul>
+                <ul class="skill-list">
+                    <li>
+                        <h3 class="title">前端框架掌握</h3>
+                        <p>了解MVC、MVVM框架基本原理。</p>
+                        <p>熟悉Vue.js，能够使用Vue及Vuex、Vue Router进行项目开发。</p>
+                    </li>
+                    <li>
+                        <h3 class="title">能够与后端良好的配合开发</h3>
+                        <p>了解 HTTP 协议，熟悉掌握AJAX请求。</p>
+                        <p>了解 JSONP、CORP跨域策略。</p>
+                    </li>
+                    <li>
+                        <h3 class="title">工具使用</h3>
+                        <p>熟悉 Git，能够完成基本的代码提交、分支管理、冲突合并。</p>
+                        <p>熟悉 npm 基本使用方式。</p>
+                        <p>了解Gulp、webpack的使用方式。</p>
+                        <p>Vim党。</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- Skill tag Begin -->
+            <div class="skill-tag">
+                <div class="tag-panel">
+                    <div class="tag">JavaScript</div>
+                    <div class="tag">HTML5</div>
+                    <div class="tag">CSS3</div>
+                    <div class="tag">Vue</div>
+                </div>
+                <div class="tag-panel">
+                    <div class="tag unfamiliar">Sass & Less</div>
+                    <div class="tag">jQuery</div>
+
+                    <div class="tag unfamiliar">Gulp</div>
+                    <div class="tag unfamiliar">Webpack</div>
+                </div>
+                <div class="tag-panel">
+                    <div class="tag">AJAX</div>
+                    <div class="tag">HTTP</div>
+                    <div class="tag">VIM</div>
+                    <div class="tag unfamiliar">Git</div>
+                </div>
+            </div>
+            <!-- Skill tag End -->
         </section>
         <!-- skill End -->
         <!-- contact Begin -->
@@ -242,7 +422,7 @@
         </section>
         <!-- contact End -->
     </div>
-    <script src="//at.alicdn.com/t/font_444410_ybv9k97cwct5u3di.js"></script>
+    <script src="//at.alicdn.com/t/font_444410_qgp2bh0hm3cgzaor.js"></script>
     <script src="./js/resume.js"></script>
 </body>
 
