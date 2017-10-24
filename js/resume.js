@@ -48,6 +48,6 @@
         }
         navItems[1].classList.add('selected')
         sections[1].classList.add('visible')
-        
+        window.scrollTo(0, 0)
     })
 })()
