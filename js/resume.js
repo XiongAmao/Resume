@@ -4,6 +4,7 @@
         navItems = document.querySelectorAll('.nav-item')
         menuBtn = document.querySelector('.menu-btn'),
         nav = document.querySelector('.js-nav')
+        nextBtn = document.querySelector('.js-next-btn')
 
     navList.addEventListener('click', function (e) {
         var target,
@@ -38,5 +39,16 @@
     })
     nav.addEventListener('click',function(){
         nav.classList.contains('visible') && nav.classList.toggle('visible')
+    })
+    nextBtn.addEventListener('click',function(){
+        console.log('xxx')
+        Array.prototype.forEach.call(sections, function(node,index){
+            if(index === 1){
+                node.classList.add('visible')
+            }else{
+                node.classList.remove('visible')
+            }
+        })
+        window.scrollTo(0, 0)
     })
 })()
