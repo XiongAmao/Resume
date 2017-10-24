@@ -88,7 +88,8 @@ html {
 
 .profile .contact,
 .profile .social-contact,
-.profile .about {
+.profile .about,
+.profile .online-resume {
     font-size: 18px;
 }
 
@@ -114,8 +115,13 @@ html {
     height: 100%;
     border-radius: 50%;
 }
-
-
+/* profile - online resume */
+.profile .online-resume a{
+    color:#fff;
+    display: block;
+    padding:16px 0;
+    font-size: 16px;
+}
 /* profile - about */
 
 .profile .about {
@@ -356,7 +362,7 @@ html {
 }
 
 .experience ul li .description {
-    padding: 0 0 0 2em;
+    padding: 4px 0 4px 2em;
     max-width: 590px;
     position: relative;
 }
@@ -364,7 +370,7 @@ html {
 .experience ul li .description::before {
     content: '';
     position: absolute;
-    top: 14px;
+    top: 20px;
     left: -1px;
     width: .5em;
     height: 2px;
@@ -375,7 +381,7 @@ html {
 .experience ul li .description::after {
     content: '';
     position: absolute;
-    top: 11px;
+    top: 16px;
     left: 3px;
     width: 1.2em;
     height: 2px;
