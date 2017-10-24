@@ -41,7 +41,6 @@
         nav.classList.contains('visible') && nav.classList.toggle('visible')
     })
     nextBtn.addEventListener('click', function () {
-        console.log('xxx')
         for (var i = 0; i < 4; i++) {
             navItems[i].classList.remove('selected')
             sections[i].classList.remove('visible')
