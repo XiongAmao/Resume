@@ -1,10 +1,10 @@
 (function () {
     var navList = document.querySelector('.js-navlist'),
         sections = document.getElementsByClassName('section'),
-        navItems = document.querySelectorAll('.nav-item')
-    menuBtn = document.querySelector('.menu-btn'),
-        nav = document.querySelector('.js-nav')
-    nextBtn = document.querySelector('.js-next-btn')
+        navItems = document.querySelectorAll('.nav-item'),
+        menuBtn = document.querySelector('.menu-btn'),
+        nav = document.querySelector('.js-nav'),
+        nextBtn = document.querySelector('.js-next-btn')
 
     navList.addEventListener('click', function (e) {
         var target,
