@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/resume.css">
     <link type="image/x-icon" rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC7UlEQVRYR+1WTWsTURQ9dyakSCtpUBBTaQw1CZgqWl0UUlcVunKVXX9AmqX52Lp0U5LsxEz+RHeCSHUlulIXpdCP6CKluMuuC+3MlfsmM80kk4+m1brogwQyeffec88779whXPCiC66PSwD/NQMs6OyvsY+KOzTm2+wABjQGLKjS/xIAAZxMJJEvFlzwa2trpwGiuk4mkygUunLYGT1N9zJANgAnmJmxv7+vIt98fI/tT1+GslYqlTAxMYHZ2VlvE+MAcDIQEbLZbE8HXh/RmIhRq9V67EWxeBYAwoSAWF9fR+N7w1OAoKvf9XoNpmmqfd3rzACchNVqFTs7O74GKp37FZfN5wZgXOseBKDzrqr8wWAQsVhs3Fq+cQ5r4XAYrVbLPSNKLT7k7c9fVZCYDrFc+7ZaiCBn/xfWCQA3OYGlcr1ed4t20NYXg2EYNnhm5HK5UbH2B+AklEyVSkWJyk90c3NzCAQCyOfzODw8xNHRETY2NqBpGvb29nqAiDHJaufyAdBm3gZggVgDIB8L2Zx7h93E3UB3d3chz/yYIGgwjFcA6T1e0nlh1WFLkuBkGDdvL6jiFgHNrQ+jUuv1B9YQS6VhUhCgYxBMrKRTsmcwAzaAx7DIAkPDwdbbNhu9OMR4dN02IlmWZaljUH5gEaLzT2BSQP2n8y+sLN3tA0BEKG722oB29RpuRR+o7uXhwdY7UJs+mRHOecp+EWqxWEQikfCIUfYUC88RnV+CiSvDAdxbXGCTLTxbeorJ6zdw/1FaBYnN/vzxTXUksyCTyXg8olwuY3V1FZFIxAUg4nWmYSSWwrGlo9FoAPwbL18UvD7QTaoO8B01SktKA87qGEYj6aHfOF5eXsbm5qavBrwCIrBhnHiC/HkaU3JmQj8Ldhsb0A53XrWR2vbZdCYA4xbtihv44jvsrZjlSsXjcTdns9lUrjc9Pa2E2Wq1MDMzg6mpKVeEYkoSFwqFPILza2gYgHMioX+aSwCXDPwBfLccMBSgrKgAAAAASUVORK5CYII="
         id="page_favicon">
-    <link href="//fonts.css.network/css?family=Play" rel="stylesheet">
+    <link href="//fonts.lug.ustc.edu.cn/css?family=Play" rel="stylesheet">
     <title>XiongZiChao's Resume</title>
 </head>
 
@@ -439,63 +439,64 @@
 
         </section>
         <!-- contact End -->
-        <script>
-            (function () {
-                var navList = document.querySelector('.js-navlist'),
-                    sections = document.getElementsByClassName('section'),
-                    navItems = document.querySelectorAll('.nav-item'),
-                    menuBtn = document.querySelector('.menu-btn'),
-                    nav = document.querySelector('.js-nav'),
-                    nextBtn = document.querySelector('.js-next-btn')
 
-                navList.addEventListener('click', function (e) {
-                    var target,
-                        index
-
-                    if (e.target.classList.contains('nav-item')) {
-                        target = e.target
-                    } else if (e.target.parentNode.classList.contains('nav-item')) {
-                        target = e.target.parentNode
-                    }
-
-                    if (!target) return
-
-                    index = Array.prototype.indexOf.call(navList.children, target)
-
-                    Array.prototype.forEach.call(navItems, function (node) {
-                        node.classList.remove('selected')
-                    })
-
-                    Array.prototype.forEach.call(sections, function (node, idx) {
-                        if (idx !== index) {
-                            node.classList.remove('visible')
-                        } else {
-                            node.classList.add('visible')
-                        }
-                    })
-                    target.classList.add('selected')
-                    window.scrollTo(0, 0)
-                })
-                menuBtn.addEventListener('click', function (e) {
-                    nav.classList.toggle('visible')
-                })
-                nav.addEventListener('click', function () {
-                    nav.classList.contains('visible') && nav.classList.toggle('visible')
-                })
-                nextBtn.addEventListener('click', function () {
-                    for (var i = 0; i < 4; i++) {
-                        navItems[i].classList.remove('selected')
-                        sections[i].classList.remove('visible')
-                    }
-                    navItems[1].classList.add('selected')
-                    sections[1].classList.add('visible')
-                    window.scrollTo(0, 0)
-                })
-            })()
-        </script>
     </div>
     <script src="//at.alicdn.com/t/font_444410_qgp2bh0hm3cgzaor.js"></script>
     <!-- <script src="./js/resume.js"></script> -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            var navList = document.querySelector('.js-navlist'),
+                sections = document.getElementsByClassName('section'),
+                navItems = document.querySelectorAll('.nav-item'),
+                menuBtn = document.querySelector('.menu-btn'),
+                nav = document.querySelector('.js-nav'),
+                nextBtn = document.querySelector('.js-next-btn')
+
+            navList.addEventListener('click', function (e) {
+                var target,
+                    index
+
+                if (e.target.classList.contains('nav-item')) {
+                    target = e.target
+                } else if (e.target.parentNode.classList.contains('nav-item')) {
+                    target = e.target.parentNode
+                }
+
+                if (!target) return
+
+                index = Array.prototype.indexOf.call(navList.children, target)
+
+                Array.prototype.forEach.call(navItems, function (node) {
+                    node.classList.remove('selected')
+                })
+
+                Array.prototype.forEach.call(sections, function (node, idx) {
+                    if (idx !== index) {
+                        node.classList.remove('visible')
+                    } else {
+                        node.classList.add('visible')
+                    }
+                })
+                target.classList.add('selected')
+                window.scrollTo(0, 0)
+            })
+            menuBtn.addEventListener('click', function (e) {
+                nav.classList.toggle('visible')
+            })
+            nav.addEventListener('click', function () {
+                nav.classList.contains('visible') && nav.classList.toggle('visible')
+            })
+            nextBtn.addEventListener('click', function () {
+                for (var i = 0; i < 4; i++) {
+                    navItems[i].classList.remove('selected')
+                    sections[i].classList.remove('visible')
+                }
+                navItems[1].classList.add('selected')
+                sections[1].classList.add('visible')
+                window.scrollTo(0, 0)
+            })
+        })
+    </script>
 </body>
 
 </html>
