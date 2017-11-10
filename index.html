@@ -21,9 +21,12 @@
                     XiongZiChao's
                     <p>Resume</p>
                 </div>
-                <svg class="icon menu-btn" aria-hidden="true">
-                    <use xlink:href="#icon-menu"></use>
-                </svg>
+                <div class="menu-btn">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-menu"></use>
+                    </svg>
+                </div>
+
             </header>
 
             <nav class="js-nav">
@@ -444,7 +447,7 @@
     <script src="//at.alicdn.com/t/font_444410_qgp2bh0hm3cgzaor.js"></script>
     <!-- <script src="./js/resume.js"></script> -->
     <script>
-        document.addEventListener('DOMContentLoaded', function(){
+        document.addEventListener('DOMContentLoaded', function () {
             var navList = document.querySelector('.js-navlist'),
                 sections = document.getElementsByClassName('section'),
                 navItems = document.querySelectorAll('.nav-item'),

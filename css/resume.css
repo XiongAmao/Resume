@@ -102,10 +102,15 @@ aside header .menu-btn {
     position: absolute;
     top: 15px;
     right: 20px;
+    height: 20px;
+    transition: .3s ease;
+}
+
+aside header .menu-btn svg {
     width: 20px;
     height: 20px;
     fill: #fff;
-    transition: .3s ease;
+    vertical-align: text-top;
 }
 
 aside nav {
@@ -389,14 +394,16 @@ h2 {
 #about .education {
     /* padding-bottom: 40px; */
 }
+
 #about .next {
     padding-bottom: 40px;
 }
-#about .next .next-btn{
+
+#about .next .next-btn {
     display: inline-block;
-    padding:6px 10px;
+    padding: 6px 10px;
     margin-left: 20px;
-    border:1px solid #42d2c2;
+    border: 1px solid #42d2c2;
     color: #42d2c2;
     border-radius: 4px;
     max-width: 100px;
@@ -405,12 +412,12 @@ h2 {
     cursor: pointer;
     transition: .3s ease;
 }
-#about .next .next-btn:hover{
-    color:#fff;
-    background: #00ADB5;
-    border:1px solid #00ADB5;   
-}
 
+#about .next .next-btn:hover {
+    color: #fff;
+    background: #00ADB5;
+    border: 1px solid #00ADB5;
+}
 
 @media (max-width:768px) {
     #about header {
@@ -448,9 +455,9 @@ h2 {
     #about .next {
         padding: 0 24px 40px;
     }
-    #about .next .next-btn{
+    #about .next .next-btn {
         font-size: 12px;
-        padding:3px 6px;
+        padding: 3px 6px;
         margin-left: 10px;
     }
 }
