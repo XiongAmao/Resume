@@ -459,9 +459,9 @@
                 var target,
                     index
 
-                if (checkClass(e.target, 'nav-item')) {
+                if (checkClass('nav-item', e.target)) {
                     target = e.target
-                } else if (checkClass(e.target.parentNode, 'nav-item')) {
+                } else if (checkClass('nav-item', e.target.parentNode)) {
                     target = e.target.parentNode
                 }
 
