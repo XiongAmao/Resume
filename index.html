@@ -470,34 +470,67 @@
                 index = Array.prototype.indexOf.call(navList.children, target)
 
                 Array.prototype.forEach.call(navItems, function (node) {
-                    node.classList.remove('selected')
+                    removeClass(node, 'selected')
                 })
 
                 Array.prototype.forEach.call(sections, function (node, idx) {
                     if (idx !== index) {
-                        node.classList.remove('visible')
+                        removeClass(node, 'visible')
                     } else {
-                        node.classList.add('visible')
+                        addClass(node, 'visible')
                     }
                 })
-                target.classList.add('selected')
+                addClass(target, 'selected')
                 window.scrollTo(0, 0)
             })
             menuBtn.addEventListener('click', function (e) {
-                nav.classList.toggle('visible')
+                toggleClass(nav, 'visible')
             })
             nav.addEventListener('click', function () {
-                nav.classList.contains('visible') && nav.classList.toggle('visible')
+                toggleClass(nav, 'visible')
             })
             nextBtn.addEventListener('click', function () {
                 for (var i = 0; i < 4; i++) {
-                    navItems[i].classList.remove('selected')
-                    sections[i].classList.remove('visible')
+                    removeClass(navItems[i], 'selected')
+                    removeClass(sections[i], 'selected')
                 }
-                navItems[1].classList.add('selected')
-                sections[1].classList.add('visible')
+                addClass(navItems[1], 'selected')                
+                addClass(sections[1], 'visible')
                 window.scrollTo(0, 0)
             })
+
+            function addClass(node, className) {
+                var classes = node.className
+                if (!checkClass(className, node)) {
+                    classes += ' ' + className
+                    node.className = classes
+                }
+            }
+
+            function removeClass(node, className) {
+                var classes = node.className
+                if (checkClass(className, node)) {
+                    classes = ' ' + classes + ' '
+                    classes = classes.replace(' ' + className, '')
+                        .replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, '') // trim()
+                    node.className = classes
+                }
+            }
+
+            function toggleClass(node, className) {
+                var classes = node.className
+                if (checkClass(className, node)) {
+                    removeClass(node, className)
+                } else {
+                    addClass(node, className)
+                }
+            }
+
+            function checkClass(className, node) {
+                var reg = new RegExp(className)
+                var hasClassName = reg.test(node.className)
+                return hasClassName
+            }
         })
     </script>
 </body>
