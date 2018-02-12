@@ -447,7 +447,7 @@
     <script src="//at.alicdn.com/t/font_444410_qgp2bh0hm3cgzaor.js"></script>
     <!-- <script src="./js/resume.js"></script> -->
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        (function () {
             var navList = document.querySelector('.js-navlist'),
                 sections = document.getElementsByClassName('section'),
                 navItems = document.querySelectorAll('.nav-item'),
@@ -492,7 +492,7 @@
             nextBtn.addEventListener('click', function () {
                 for (var i = 0; i < 4; i++) {
                     removeClass(navItems[i], 'selected')
-                    removeClass(sections[i], 'selected')
+                    removeClass(sections[i], 'visible')
                 }
                 addClass(navItems[1], 'selected')                
                 addClass(sections[1], 'visible')
@@ -531,7 +531,7 @@
                 var hasClassName = reg.test(node.className)
                 return hasClassName
             }
-        })
+        })()
     </script>
 </body>
 
