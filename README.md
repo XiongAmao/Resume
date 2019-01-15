@@ -1,46 +1,36 @@
-# 熊子超的个人简历
 
+# 个人信息
 
-## 个人信息
-- 熊子超 | 男 | 1991.10 | 广州
+- 熊子超 | 男 | 1991 | 广州
 - WeChat: onycat | onycat@live.cn | 15920165717
-- 广州大学（本科）
-- 关于我：思维灵活发散，拥有强大的自我驱动能力。对新技术充满热情，坚持努力夯实基础。
+- 本科/广州大学
+- 工作年限: 4年
+- blog: http://www.jianshu.com/u/b81f805e4ea8
+- Github: https://github.com/XiongAmao
 
-## 个人项目
-### Vue Todo
+# 工作经历
+
+## 广州雅特科技有限公司 （2017.12~至今）
+
+## 火烈鸟网络(广州)股份有限公司 （2015.5~2017.4）
+
+- 岗位：用户运营专员
+- 在职期间负责游戏平台的用户管理维护、用户数据调研、VIP及游戏联运活动策划。
+- 掌握与产品经理、技术良好的沟通协作能力，能够配合完成产品的发布。了解互联网产品的基本开发流程及工作模式。 
+
+# 个人项目
+
+## Vue Todo
 
 ![](http://ond8gcwbr.bkt.clouddn.com/17-10-17/37727736.jpg)
 
 - [在线预览](https://xiongamao.github.io/Vue-todolist-demo/dist/)
 - [Github源码](https://github.com/XiongAmao/Vue-todolist-demo/)
 - 一个单页面Todo任务列表小应用。基于Vue，使用Vuex进行全局状态管理，Vue Router进行路由分发，使用leancloud提供的后端数据存储服务。
-- 部署：Leancloud 
+- 部署：Leancloud
 - 技术栈：Vue + Vuex + Vue Router + Vue-cli(webpack) + Sass
 
-
-### 仿网易云音乐移动端页面
-
-![](http://ond8gcwbr.bkt.clouddn.com/17-10-17/31096009.jpg)
-
-- [在线预览](https://xiongamao.github.io/mNeteaseMusic-demo/build/homepage.html)
-- [Github源码](https://github.com/XiongAmao/mNeteaseMusic-demo)
-- 该项目是仿[网易云音乐移动端页面[](http://music.163.com/m/)。 支持歌曲播放，歌词滚动，歌曲搜索。数据采用JSON文件模拟歌单列表获取，歌曲信息（音频、专辑图片）存储于第三方OSS。开发工具使用Gulp + browsersync 进行打包及手机端测试。
-- 部署：Leancloud + 阿里云OSS
-- 技术栈：jQuery + Gulp + broswersync + Sass
-
-
-### netguru首页
-
-![](http://ond8gcwbr.bkt.clouddn.com/17-8-20/48016856.jpg)
-
-- [在线预览](https://xiongamao.github.io/homepage-netguru/)
-- [Github源码](https://github.com/XiongAmao/homepage-netguru)
-- 仿netguru官网首页，学习响应式布局及CSS动画效果
-- 样式使用Sass完成，效果通过jQuery+swiper.js+headroom.js等库完成
-- 技术栈：jQuery + swiper.js + Sass
-
-## 掌握技能
+## Skill
 
 - 静态页面制作技术
     > 熟练掌握HTML(5)、CSS(3)，能够像素级还原的静态页面
@@ -71,21 +61,3 @@
     > 熟悉 npm 基本使用方式
     > 了解Gulp、webpack的使用方式
     > Vim党
-
-
-## 工作经历
-### 火烈鸟网络(广州)股份有限公司 （2015.5~2017.4）
-- 岗位：用户运营专员
-- 在职期间负责游戏平台的用户管理维护、用户数据调研、VIP及游戏联运活动策划。
-- 掌握与产品经理、技术良好的沟通协作能力，能够配合完成产品的发布。了解互联网产品的基本开发流程及工作模式。 
-
-
-## 联系方式
-- 手机：15920165717
-- 邮箱：onycat@live.cn
-- QQ:385374545
-- WeChat:onycat
-- blog: http://www.jianshu.com/u/b81f805e4ea8
-- Github: https://github.com/XiongAmao
-
-
