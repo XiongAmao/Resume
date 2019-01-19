@@ -22,7 +22,7 @@
 
 ## Vue Todo
 
-![](http://ond8gcwbr.bkt.clouddn.com/17-10-17/37727736.jpg)
+![](https://xiongamao.github.io/Resume/images/cover/vue-todo-1.jpg)
 
 - [在线预览](https://xiongamao.github.io/Vue-todolist-demo/dist/)
 - [Github源码](https://github.com/XiongAmao/Vue-todolist-demo/)
