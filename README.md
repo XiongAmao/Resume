@@ -12,9 +12,18 @@
 
 ## 广州雅特科技有限公司 （2017.12~至今）
 
-### 叮叮医生 - 合作药店app h5 (2018.8~至今)
+### 南雄中医院/韶关中医院挂号缴费微信公众号/支付宝生活号+后台 (2019.7~至今)
+- Vue / Typescript
+- 医院合作项目，为医院提供挂号问诊、微信支付宝缴费、患者问诊信息绑定等服务。
+- 后台采用Typescript+Vue，移动端页面为Vue多页
 
-- webpack@4 / vue / 多页 / vw视口布局方案
+### 华启医信官网 (2019.7)
+- Vue / Nuxt
+- 静态官网+Email服务
+
+### 叮叮医生 (2018.8~至今)
+
+- Vue / SPA
 - 医患交流、问诊、购药的店员APP。
 - 负责项目中APP内h5页面的的业务开发。
 
@@ -30,11 +39,6 @@
 - 该项目为一家医疗机构提供医患咨询APP、微信公众号web、后台管理系统等产品的开发。
 - 负责项目的官网，后台管理系统前端的架构和业务开发。后台项目为SPA，支持鉴权，由前端路由根据登录的账号权限不同展示和允许访问的页面不同。项目打包工具基于vue-cli2的webpack配置，项目后期升级为vue-cli@3版本。
 
-### 官网/静态宣传 (2018.3~至今)
-
-- wepback + vue + spa-prerender-plugin / jquery
-- 负责多个项目的官网&静态宣传页开发和维护，旧的项目以jquery为主，新项目的页面采用prerender+vue的方案，使项目可以更好的模块化管理，同时提供一定SEO能力。
-
 ## 火烈鸟网络(广州)股份有限公司 （2015.5~2017.4）
 
 - 用户运营
@@ -48,25 +52,15 @@
 - [在线预览](https://onycat.com/vue-easy-lightbox/)
 - [Github](https://github.com/XiongAmao/vue-easy-lightbox)
 - 一个Vue弹窗小组件，可用于多张图片全屏展示、旋转、放大、拖拽。
-- 这个项目是以开源为导向的一个小项目，参考了社区的其他项目，提供了中英README文档以及DEMO页，并发布了npm包，目前已用于业务项目中。
-- 最初经验不足，仅使用webpack进行简单的打包，在webpack@4以及vue-cli@3发布后，替换为基于vue-cli@3的构建。
-- 未来会加入测试代码来提高质量。
-
-## Vue Todo
-
-![](https://xiongamao.github.io/Resume/images/cover/vue-todo-1.jpg)
-
-- [在线预览](https://xiongamao.github.io/Vue-todolist-demo/dist/)
-- [Github](https://github.com/XiongAmao/Vue-todolist-demo/)
-- 一个单页面Todo任务列表小应用。基于Vue，使用Vuex进行全局状态管理，Vue Router进行路由分发，使用leancloud提供的后端数据存储服务。
-- 技术栈：Vue + Vuex + Vue Router + webpack + Sass
+- 提供了中英README文档以及DEMO页，发布了npm包，目前已用于业务项目中。
+- 正在用TS重写
 
 ## Skill
 
-- 前端基础
-    > 熟练掌握HTML、CSS，能够像素级还原的静态页面
+- 前端
+    > 熟悉HTML、CSS，能够像素级还原的设计稿
     > 熟悉响应式布局、Flex布局、移动端常用布局方案(REM、VW)
-    > 熟练掌握Javascript，熟悉重要概念：对象原型，闭包，作用域，面向对象等
+    > 掌握Javascript，熟悉重要概念：对象原型，闭包，作用域，面向对象等
     > 了解并能够使用 ES6及ES7 部分新特性
     > 了解 HTTP 协议、浏览器缓存、跨域策略
 
@@ -76,12 +70,10 @@
 
 - 工程
     > 熟悉 Git的工作流，熟悉代码提交、分支管理、冲突合并、PR/MR等操作
-    > 熟悉 npm 基本使用方式
-    > 熟悉webpack的使用方式，了解Parcel、Gulp等构建工具
+    > 熟悉webpack的使用方式，
 
 - 学习热情、勇于尝试
     > 持续学习Node及尝试其他语言和技术栈
-    > 补足算法基础、计算机基础
 
 
 
