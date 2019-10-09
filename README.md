@@ -14,7 +14,7 @@
 
 ### 智慧医院项目 (2019.6~至今)
 
-- 技术栈：Vue / Typescript / Sass
+- 技术栈：Vue / TypeScript / Sass
 - 简介：粤北医院合作项目，为医院提供支付宝生活号/微信公众号，挂号问诊、微信支付宝缴费、患者问诊信息绑定等服务。
 - 负责前端脚手架、基础库搭建与改写，负责管理后台业务的开发。
 - 该项目中，管理后台使用TypeScript作为开发语言，选择TS原因是希望通过TS提高代码质量和项目可维护性，目前项目内的自用的基础库和组件已全部使用TS实现。
@@ -58,9 +58,8 @@
 
 - [在线预览](https://onycat.com/vue-easy-lightbox/)
 - [Github](https://github.com/XiongAmao/vue-easy-lightbox)
-- 一个Vue弹窗小组件，可用于多张图片全屏展示、旋转、放大、拖拽。
-- 项目提供了中英README文档以及DEMO页，发布了npm包，目前已用于业务项目中。
-- 目前使用TypeScript重写中。
+- 一个使用TypeScript实现的Vue弹窗小组件，提供了多张图片全屏展示、旋转、放大、拖拽等功能。
+- 项目提供了中英README文档以及DEMO页，发布了npm包，构建时提供了多种build版本，目前已用于业务项目中。
 
 ## 技能
 
