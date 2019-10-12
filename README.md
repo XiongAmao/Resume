@@ -64,17 +64,19 @@
 ## 技能
 
 - 前端
-    > 熟悉HTML、CSS，能够像素级还原的设计稿
-    > 熟悉常用布局：响应式布局、Flex布局、移动端常用布局方案(REM、VW)
-    > 掌握Javascript，熟悉重要概念：对象原型，闭包，作用域，面向对象等，以及 ES6及ES7 部分新特性
-    > 了解TypeScript
-    > 了解 HTTP 协议、浏览器缓存、跨域策略
+    > 熟练掌握HTML、CSS，掌握常用的CSS预处理器 Sass, Less, PostCss
+    > 熟练掌握常用布局：响应式布局、Flex布局、移动端常用布局方案(REM、VW) 等
+    > 熟练掌握JavaScript基础概念：对象原型，闭包，作用域，面向对象等，掌握 ES2015+ 新特性
+    > 掌握TypeScript，使用TypeScript重构过旧项目
+    > 掌握 HTTP 协议、浏览器缓存、跨域策略
 
-- 前端框架掌握
-    > 熟悉Vue.js，能够使用Vue及Vuex、Vue Router完成前端项目的业务开发
-    > 了解Node.js，有Koa项目开发经验
+- 前端框架
+    > 熟练掌握Vue.js，能够使用Vue、Vuex、Vue Router、Nuxt等Vue生态工具完成前端项目的业务开发
+    > 熟悉React、Redux、Lodash等常用的现代前端框架
+    > 熟悉Node.js，有Koa项目开发经验
 
 - 工程
-    > 熟悉版本管理工具Git，能够熟料使用代码提交、分支管理、冲突合并、PR/MR等操作
+    > 熟悉版本管理工具Git，能够熟练使用代码提交、分支管理、冲突合并、PR/MR等操作
     > 熟悉webpack的使用方式，熟悉Npm包管理工具
+
 
